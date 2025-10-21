@@ -99,7 +99,7 @@ python -m train
 
 ---
 
-## ⚡ Notes
+## Notes
 
 - This implementation uses a **dynamic learning rate schedule** (`BEGANLRSchedule`) and the **kt parameter** for balancing generator/discriminator losses.  
 - The discriminator is an autoencoder; the generator tries to fool it by producing realistic images.  
